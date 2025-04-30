@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/admin_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5F5F5"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.03"
+        android:text="Usuários"
+        android:textAlignment="center"
+        android:textColor="#FF6200EE"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+<ListView
+android:id="@+id/list_users"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FFFFFFFF"
+android:scrollbarSize="8dp"
+android:divider="#FFE0E0E0"
+android:dividerHeight="1dp" />
+    </LinearLayout>
